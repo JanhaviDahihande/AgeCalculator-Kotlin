@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.age_calc.janha_000.agecalculator.MainActivity">
+
+
+    <EditText
+        android:id="@+id/mAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="126dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/mButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Get Age" />
+
+    <TextView
+        android:id="@+id/mDisplayAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/mAge"
+        android:layout_alignLeft="@+id/mAge"
+        android:layout_alignRight="@+id/mAge"
+        android:layout_alignStart="@+id/mAge"
+        android:layout_below="@+id/mButton"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="83dp"
+        android:text="TextView" />
+</RelativeLayout>
