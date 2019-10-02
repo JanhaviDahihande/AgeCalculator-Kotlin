@@ -20,15 +20,20 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
+    
+    //now edit this code quickly
 
     private fun calcAge(input: String): String {
         val year = input.toInt()
         val currentYear = Calendar.getInstance().get(Calendar.YEAR)
 
-        return if (currentYear < year)
-            "Enter correct year!"
+       if (currentYear==0)
+        show.text= "Invalid Input"
         else {
-            "You are ${currentYear - year} year(s) old"
+            val myage: Float= currentyear - yearofbirth
+
+            show.text = "YOUR AGE IS $year YEARS"
         }
+        
     }
 }
